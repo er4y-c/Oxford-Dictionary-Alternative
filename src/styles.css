@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.error-message {
+    color:red;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 721px) {
+    .login-leftside {
+        display: none;
+    }
+    .navbar-button-group {
+        display: none;
+    }
+    .footer-container img{
+        margin-top: 20px;
+    }
+    .responsive-button-group {
+        display: flex;
+    }
+    .sidebar-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1015px) {
+    .card-content, .top, .bottom {
+        flex-direction: column;    
+    }
+}
+@media only screen and (min-width: 722px) {
+    .responsive-button-group {
+        display: none;
+    }
+    .sidebar-container{
+        width:250px;
+    }
+}
