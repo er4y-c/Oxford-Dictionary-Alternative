@@ -13,6 +13,7 @@ const Definition = ({ word }) => {
           noun: '',
           verb: '',
           adjective: '',
+          adverb:'',
         },
       });
 
