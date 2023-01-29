@@ -25,7 +25,7 @@ const Definition = ({ word }) => {
         url: 'https://twinword-word-graph-dictionary.p.rapidapi.com/definition/',
         params: {entry: word},
         headers: {
-            'X-RapidAPI-Key': 'b0dbab0c2emsh984d5b6276e1902p1811b4jsn09b3c17cdbc9',
+            'X-RapidAPI-Key': RAPID_API_KEY,
             'X-RapidAPI-Host': 'twinword-word-graph-dictionary.p.rapidapi.com'
         }
         };
